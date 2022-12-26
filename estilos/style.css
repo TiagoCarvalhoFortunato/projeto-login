@@ -63,4 +63,19 @@ section#login > div#formulario {
 
 }
 
+section#login > div > h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section#login > div > p {
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+div.campo {
+    padding: 10px 10px 5px 10px;
+}
+
 
