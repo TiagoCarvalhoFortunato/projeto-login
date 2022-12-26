@@ -44,6 +44,8 @@ section#login {
     width: 250px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.644);
 
+    transition: width .3, height .3;
+
 }
 
 section#login > div#imagem {
