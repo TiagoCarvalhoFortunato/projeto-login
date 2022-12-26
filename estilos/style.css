@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #0FC2C0;
+    --cor2: #0CABA8;
+    --cor3: #008F8C;
+    --cor4: #015958;
+    --cor5: #023535;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--cor3);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+    
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    height: 500px;
+    width: 250px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.644);
+
+}
+
+section#login > div#imagem {
+    background-image: url(../imagens/floresta.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+     
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+
+}
+
+
